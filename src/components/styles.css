@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App > div {
+    padding: 1rem;
+
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.App > div > .options {
+    display: flex;
+    flex-direction: column;
+}
